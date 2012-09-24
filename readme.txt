@@ -3,7 +3,7 @@ Contributors: swemaniac
 Tags: tags, tag cloud
 Requires at least: 3.4
 Tested up to: 3.4.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -29,6 +29,7 @@ array(
 	'list_class' => 'wp-tag-cloud',	// css class for the ul list, use '' for no class
 	'show_default_tag_class' => false,	// show or hide the default tag class (tag-link-x)
 	'show_title' => true	// show or hide link title
+	'show_rel' => true	// show or hide rel="tag" tag
 )
 `
 
@@ -54,6 +55,9 @@ add_filter('tidy_tag_cloud_output', function($output, $args) {
 See the plugin file or the readme on github for more information.
 
 == Changelog ==
+
+= 1.0.1 =
+* Added the show_rel argument
 
 = 1.0.0 =
 * The initial version of this plugin
