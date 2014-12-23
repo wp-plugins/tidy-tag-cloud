@@ -2,8 +2,8 @@
 Contributors: swemaniac
 Tags: tags, tag cloud
 Requires at least: 3.4
-Tested up to: 4.0
-Stable tag: 1.0.2
+Tested up to: 4.1
+Stable tag: 1.0.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -55,6 +55,9 @@ add_filter('tidy_tag_cloud_output', function($output, $args) {
 See the plugin file or the readme on github for more information.
 
 == Changelog ==
+
+= 1.0.3 =
+* Confirmed compatibility with WP 4.1
 
 = 1.0.2 =
 * Confirmed compatibility with WP 3.6
